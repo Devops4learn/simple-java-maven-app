@@ -1,14 +1,14 @@
 pipeline {
-    agent any {
-              stage('Build') {
+    agent any 
+        stage('Build') {
                   steps{
                       echo 'Hello Build'
                   }
               }
-              stage('QA') {
+         stage('QA') {
                   steps {    
                   input('Do you want to proceed?')
                  }
               }
-   }
+   
 }
