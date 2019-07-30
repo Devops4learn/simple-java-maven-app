@@ -3,7 +3,7 @@ pipeline {
               stage('Build') {
                   steps{
                       echo 'Hello Build'
-                       }
+                  }
               }
               stage('QA') {
                   steps {    
